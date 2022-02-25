@@ -3,7 +3,7 @@
 const prompt = require('prompt-sync')({ sigint: true });
 
 // list of Variables 
-//----------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------
 
 let array = [];
 let arrayTime = [];
@@ -15,12 +15,12 @@ let option5 = 5;
 let toDo = true;
 
 // opening statement
-//----------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------
 
 console.log('Welcome to the To-Do List Manager Application!');
 
 //Home loop (to get a input from user and perfom a action) 
-//----------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------
 
 while(toDo){
 
@@ -34,7 +34,7 @@ while(toDo){
 
         for (let i = 0; i < array.length; i++){
 
-            const completed = array[i].completed ? 'complete' : 'incomplete'; // True or False statments. if True display complete, else display Incomplete. 
+            const completed = array[i].completed ? 'complete' : 'incomplete'; // True or False ternary statments. if True display complete, else display Incomplete. 
 
             if (completed === 'incomplete') {
 
