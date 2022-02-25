@@ -78,7 +78,7 @@ while(toDo){
         let done = Number(prompt(''));
 
         if (done > array.length){
-            Error ();
+            Error (); // Error function as seen below
         } else
 
         array[done - 1].completed == true; // change false statment to true, incomplete to complete.
@@ -108,9 +108,9 @@ while(toDo){
         toDo = false;
     } else
 
-    Error ();
+    Error (); // Error function as seen below
 }
 
 function Error () {
-    console.log('----------------------------------' + '\n' + 'Error: Invalid entry' + '\n' + '\n' + 'Please try again' + '\n' + '----------------------------------');
-}
+    console.log('----------------------------------' + '\n' + 'Error: Invalid entry' + '\n' + '\n' + 'Please try again' + '\n' + '----------------------------------'); 
+} // Error function 
