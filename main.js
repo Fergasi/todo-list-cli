@@ -81,7 +81,7 @@ while(toDo){
             Error (); // Error function as seen below
         } else
 
-        array[done - 1].completed == true; // change false statment to true, incomplete to complete.
+        array[done - 1].completed = true; // change false statment to true, incomplete to complete.
 
         // Stretch goal of adding timestamp to complete items
         var currentdate = new Date(); 
